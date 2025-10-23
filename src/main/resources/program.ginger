@@ -1,0 +1,10 @@
+
+module User(x, y) do
+    def calculate do
+        ret x * y;
+    end
+end
+
+let user = User(3, 4);
+
+IO.print(user.calculate());
