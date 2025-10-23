@@ -98,9 +98,3 @@ String input = Files.readString(path, StandardCharsets.UTF_8);
 - Add new built-in functions by extending `BuiltinFunctionNode`.  
 - Add new AST nodes for more language features.  
 - Improve the parser to handle complex expressions and statements.
-
----
-
-## License
-
-MIT License
